@@ -41,7 +41,7 @@ def get_decryption_keys(_pssh, license_url, _headers, wvd_id):
     try:
         wvd_data = next(wvd for wvd in wvd_provisions if wvd["id"] == wvd_id)
         pssh = PSSH(_pssh)
-        device = Device.load(os.path.normpath(os.getcwd() + os.sep + os.pardir) + "/wvd/" + wvd_data['file'])
+        device = Device.load(os.path.dirname(os.path.dirname( __file__ )) + "/wvd/" + wvd_data['file'])
         cdm = Cdm.from_device(device)
         session_id = cdm.open()
         challenge = cdm.get_license_challenge(session_id, pssh)
