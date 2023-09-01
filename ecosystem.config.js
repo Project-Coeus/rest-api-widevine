@@ -7,6 +7,6 @@ module.exports = {
 		autorestart: true,
 		restart_delay: 2000,
 		max_restarts: 5,
-		interpreter: 'python3 run',
+		interpreter: '/usr/bin/python3',
 	}]
 }
