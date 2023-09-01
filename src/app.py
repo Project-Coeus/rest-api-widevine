@@ -105,7 +105,7 @@ request_schema = {
         "licenseUrl": {"type": "string"},
         "provider": {
             "type": "string",
-            "enum": ["hbm"]
+            "enum": ["hbm", "dnp"]
         },
         "headers": {
             "type": "object", 
