@@ -1,0 +1,10 @@
+curl --location 'http://localhost:6969/key' \
+--header 'Content-Type: application/json' \
+--data '{
+    "pssh": "PSSH key",
+    "licenseUrl": "License url",
+    "provider": "hbm || dnp",
+    "headers": {
+        "authorization": "Bearer Token"
+    }
+}'
