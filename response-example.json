@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "key": "1d60457453d7110771b958211c173da5",
+            "kid": "01004a132263eefd37e822a801b2f64e",
+            "type": "CONTENT"
+        },
+        {
+            "key": "00000000000000000000000000000000",
+            "kid": "0105b43821b89745eb0547f97dca06bc",
+            "type": "CONTENT"
+        },
+        {
+            "key": "891746c3ae7c3f39f46b7bd1c37b421f",
+            "kid": "0102270c50fae0f4b694a7da8653fc00",
+            "type": "CONTENT"
+        },
+        {
+            "key": "0e12b465091f697b2ca789c83ff50452",
+            "kid": "0101b6ef8b60ede23edab8860a94072b",
+            "type": "CONTENT"
+        }
+    ],
+    "info": {
+        "securityLevel": "l3",
+        "wvd_id": 1
+    }
+}
